@@ -167,7 +167,7 @@ class Tennis {
 }
 
 // ゲーム開始ボタン押されたら開始
-window.onclick = function main() {
+function main() {
     var tennis = new Tennis();
     tennis.init();
     tennis.play(tennis);
