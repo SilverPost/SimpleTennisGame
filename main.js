@@ -136,16 +136,6 @@ class Tennis {
         this.mouseX = evt.clientx - rect.left - root.scrollLeft;
         this.mouseY = evt.clientY - rect.top - root.scrollTop;
     }
-    // マウスクリック時の処理
-    mouseClick(evt) {
-        // ゲームセット状態なら再スタート
-        if (this.gameSet) {
-            this.cvs.clearRect(0, 0, this.cvs.width, this.cvs.height);
-            this.gameSet = false;
-            this.init();
-            this.play();
-        }
-    }
 
     play(tennis) {
         this.cvs = document.getElementById('tennis');
