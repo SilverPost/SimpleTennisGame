@@ -128,8 +128,6 @@ class Tennis {
             this.ctx.fillStyle = '#2222aa';
             this.ctx.fillText("You're LOSER!", 200, 200);
         }
-        this.ctx.font = "25px Georgia";
-        this.ctx.fillText("Continue? [Yes:click window]", 350, 500);
     }
     // マウスの位置
     mousePos(evt) {
