@@ -6,7 +6,7 @@ class Tennis {
         this.mouseY = 0; // マウスのy座標
         this.paddleW = 10; // パドルの幅
         this.paddleH = 100; // パドルの高さ
-        this.vx = 10; // ボールの速さ(x方向)
+        this.vx = 8; // ボールの速さ(x方向)
         this.vy = 4; // ボールの速さ(y方向)
         this.cvs = null;
         this.ctx = null;
